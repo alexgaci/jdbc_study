@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Microsoft SQL Server - @localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="AdventureWorksDW">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="3" parent="1" name="BikeStores">
+      <ObjectId>6</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>6.44059/696FCF72-82B1-4E43-A4A7-F5FE137263B0@DESKTOP-9CKOJQ2</Fingerprint>
+    </database>
+    <database id="4" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@DESKTOP-9CKOJQ2</Fingerprint>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="8" parent="3" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="9" parent="3" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="10" parent="3" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="11" parent="3" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="12" parent="3" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="13" parent="3" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <IntrospectionTimestamp>2020-09-18.01:16:46.370</IntrospectionTimestamp>
+    </schema>
+    <schema id="14" parent="3" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="15" parent="3" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="16" parent="3" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <IntrospectionTimestamp>2020-09-18.01:16:46.400</IntrospectionTimestamp>
+    </schema>
+    <schema id="17" parent="3" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="18" parent="3" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-09-18.01:19:53.960</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="19" parent="3" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="20" parent="3" name="production">
+      <ObjectId>5</ObjectId>
+      <IntrospectionTimestamp>2020-09-18.01:19:53.980</IntrospectionTimestamp>
+    </schema>
+    <schema id="21" parent="3" name="sales">
+      <ObjectId>6</ObjectId>
+      <IntrospectionTimestamp>2020-09-18.01:19:54.087</IntrospectionTimestamp>
+    </schema>
+    <schema id="22" parent="3" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="23" parent="20" name="brands">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.423</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.433</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="20" name="categories">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.413</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.433</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="20" name="products">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.427</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.460</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="20" name="stocks">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.457</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.457</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="21" name="customers">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.433</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="21" name="order_items">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.450</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="21" name="orders">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.447</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.453</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="21" name="staffs">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.440</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="21" name="stores">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2020-08-17.23:54:24.437</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.460</ModifiedTimestamp>
+    </table>
+    <column id="32" parent="23" name="brand_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="23" name="brand_name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="34" parent="23" name="PK__brands__5E5A8E27E4FADF25">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>brand_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="23" name="PK__brands__5E5A8E27E4FADF25">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.423</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.423</ModifiedTimestamp>
+      <ColNames>brand_id</ColNames>
+      <UnderlyingIndexName>PK__brands__5E5A8E27E4FADF25</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="24" name="category_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="24" name="category_name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="38" parent="24" name="PK__categori__D54EE9B40AF0A729">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>category_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="24" name="PK__categori__D54EE9B40AF0A729">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.420</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.420</ModifiedTimestamp>
+      <ColNames>category_id</ColNames>
+      <UnderlyingIndexName>PK__categori__D54EE9B40AF0A729</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="40" parent="25" name="product_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="25" name="product_name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="25" name="brand_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="25" name="category_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="25" name="model_year">
+      <Position>5</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="25" name="list_price">
+      <Position>6</Position>
+      <DataType>decimal(10,2)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="25" name="PK__products__47027DF50EA4E05A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>product_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="25" name="PK__products__47027DF50EA4E05A">
+      <ObjectId>981578535</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.427</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.427</ModifiedTimestamp>
+      <ColNames>product_id</ColNames>
+      <UnderlyingIndexName>PK__products__47027DF50EA4E05A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="25" name="FK__products__brand___3C69FB99">
+      <ObjectId>1013578649</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.433</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.433</ModifiedTimestamp>
+      <ColNames>brand_id</ColNames>
+      <RefTableId>933578364</RefTableId>
+      <RefTableName>brands</RefTableName>
+      <RefKeyName>PK__brands__5E5A8E27E4FADF25</RefKeyName>
+      <RefColNames>brand_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="49" parent="25" name="FK__products__catego__3B75D760">
+      <ObjectId>997578592</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.427</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.427</ModifiedTimestamp>
+      <ColNames>category_id</ColNames>
+      <RefTableId>901578250</RefTableId>
+      <RefTableName>categories</RefTableName>
+      <RefKeyName>PK__categori__D54EE9B40AF0A729</RefKeyName>
+      <RefColNames>category_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="50" parent="26" name="store_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="26" name="product_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="26" name="quantity">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="53" parent="26" name="PK__stocks__E68284D3D5BC54DE">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>store_id
+product_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="26" name="PK__stocks__E68284D3D5BC54DE">
+      <ObjectId>1349579846</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.457</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.457</ModifiedTimestamp>
+      <ColNames>store_id
+product_id</ColNames>
+      <UnderlyingIndexName>PK__stocks__E68284D3D5BC54DE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="26" name="FK__stocks__store_id__5165187F">
+      <ObjectId>1365579903</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.460</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.460</ModifiedTimestamp>
+      <ColNames>store_id</ColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefSchemaName>sales</RefSchemaName>
+      <RefTableName>stores</RefTableName>
+      <RefColNames>store_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="56" parent="26" name="FK__stocks__product___52593CB8">
+      <ObjectId>1381579960</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.460</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.460</ModifiedTimestamp>
+      <ColNames>product_id</ColNames>
+      <RefTableId>965578478</RefTableId>
+      <RefTableName>products</RefTableName>
+      <RefKeyName>PK__products__47027DF50EA4E05A</RefKeyName>
+      <RefColNames>product_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="57" parent="27" name="customer_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="27" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="27" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="27" name="phone">
+      <Position>4</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+    </column>
+    <column id="61" parent="27" name="email">
+      <Position>5</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="27" name="street">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="63" parent="27" name="city">
+      <Position>7</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="64" parent="27" name="state">
+      <Position>8</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+    </column>
+    <column id="65" parent="27" name="zip_code">
+      <Position>9</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+    </column>
+    <index id="66" parent="27" name="PK__customer__CD65CB85D5EB6959">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customer_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="27" name="PK__customer__CD65CB85D5EB6959">
+      <ObjectId>1045578763</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.437</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.437</ModifiedTimestamp>
+      <ColNames>customer_id</ColNames>
+      <UnderlyingIndexName>PK__customer__CD65CB85D5EB6959</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="28" name="order_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="28" name="item_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="28" name="product_id">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="28" name="quantity">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="28" name="list_price">
+      <Position>5</Position>
+      <DataType>decimal(10,2)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="28" name="discount">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__order_ite__disco__4CA06362</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(4,2)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="74" parent="28" name="PK__order_it__837942D4BDADCCA1">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>order_id
+item_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="28" name="PK__order_it__837942D4BDADCCA1">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.450</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+      <ColNames>order_id
+item_id</ColNames>
+      <UnderlyingIndexName>PK__order_it__837942D4BDADCCA1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="76" parent="28" name="FK__order_ite__order__4D94879B">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.453</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.453</ModifiedTimestamp>
+      <ColNames>order_id</ColNames>
+      <RefTableId>1173579219</RefTableId>
+      <RefTableName>orders</RefTableName>
+      <RefKeyName>PK__orders__46596229CF245951</RefKeyName>
+      <RefColNames>order_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="77" parent="28" name="FK__order_ite__produ__4E88ABD4">
+      <ObjectId>1317579732</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.453</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.453</ModifiedTimestamp>
+      <ColNames>product_id</ColNames>
+      <RefTableId>965578478</RefTableId>
+      <RefSchemaName>production</RefSchemaName>
+      <RefTableName>products</RefTableName>
+      <RefKeyName>PK__products__47027DF50EA4E05A</RefKeyName>
+      <RefColNames>product_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <default id="78" parent="28" name="DF__order_ite__disco__4CA06362">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+      <ColNames>discount</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="79" parent="29" name="order_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="29" name="customer_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="81" parent="29" name="order_status">
+      <Position>3</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="29" name="order_date">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="29" name="required_date">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="29" name="shipped_date">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="85" parent="29" name="store_id">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="29" name="staff_id">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="87" parent="29" name="PK__orders__46596229CF245951">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>order_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="29" name="PK__orders__46596229CF245951">
+      <ObjectId>1189579276</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.447</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.447</ModifiedTimestamp>
+      <ColNames>order_id</ColNames>
+      <UnderlyingIndexName>PK__orders__46596229CF245951</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="29" name="FK__orders__customer__47DBAE45">
+      <ObjectId>1205579333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.447</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.447</ModifiedTimestamp>
+      <ColNames>customer_id</ColNames>
+      <RefTableId>1029578706</RefTableId>
+      <RefTableName>customers</RefTableName>
+      <RefKeyName>PK__customer__CD65CB85D5EB6959</RefKeyName>
+      <RefColNames>customer_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="90" parent="29" name="FK__orders__store_id__48CFD27E">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.450</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+      <ColNames>store_id</ColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefTableName>stores</RefTableName>
+      <RefKeyName>PK__stores__A2F2A30CC49859DB</RefKeyName>
+      <RefColNames>store_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="91" parent="29" name="FK__orders__staff_id__49C3F6B7">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.450</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.450</ModifiedTimestamp>
+      <ColNames>staff_id</ColNames>
+      <RefTableId>1093578934</RefTableId>
+      <RefTableName>staffs</RefTableName>
+      <RefKeyName>PK__staffs__1963DD9C4D0B909F</RefKeyName>
+      <RefColNames>staff_id</RefColNames>
+    </foreign-key>
+    <column id="92" parent="30" name="staff_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="30" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="30" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="30" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="30" name="phone">
+      <Position>5</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+    </column>
+    <column id="97" parent="30" name="active">
+      <Position>6</Position>
+      <DataType>tinyint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="30" name="store_id">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="30" name="manager_id">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="100" parent="30" name="PK__staffs__1963DD9C4D0B909F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>staff_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="101" parent="30" name="UQ__staffs__AB6E61643589A8E3">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="30" name="PK__staffs__1963DD9C4D0B909F">
+      <ObjectId>1109578991</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.440</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.440</ModifiedTimestamp>
+      <ColNames>staff_id</ColNames>
+      <UnderlyingIndexName>PK__staffs__1963DD9C4D0B909F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="103" parent="30" name="UQ__staffs__AB6E61643589A8E3">
+      <ObjectId>1125579048</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.443</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.443</ModifiedTimestamp>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>UQ__staffs__AB6E61643589A8E3</UnderlyingIndexName>
+    </key>
+    <foreign-key id="104" parent="30" name="FK__staffs__store_id__440B1D61">
+      <ObjectId>1141579105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.443</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.443</ModifiedTimestamp>
+      <ColNames>store_id</ColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefTableName>stores</RefTableName>
+      <RefKeyName>PK__stores__A2F2A30CC49859DB</RefKeyName>
+      <RefColNames>store_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="105" parent="30" name="FK__staffs__manager___44FF419A">
+      <ObjectId>1157579162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.443</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.443</ModifiedTimestamp>
+      <ColNames>manager_id</ColNames>
+      <RefTableId>1093578934</RefTableId>
+      <RefTableName>staffs</RefTableName>
+      <RefKeyName>PK__staffs__1963DD9C4D0B909F</RefKeyName>
+      <RefColNames>staff_id</RefColNames>
+    </foreign-key>
+    <column id="106" parent="31" name="store_id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="31" name="store_name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="31" name="phone">
+      <Position>3</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+    </column>
+    <column id="109" parent="31" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="110" parent="31" name="street">
+      <Position>5</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="111" parent="31" name="city">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="112" parent="31" name="state">
+      <Position>7</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+    </column>
+    <column id="113" parent="31" name="zip_code">
+      <Position>8</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+    </column>
+    <index id="114" parent="31" name="PK__stores__A2F2A30CC49859DB">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>store_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="31" name="PK__stores__A2F2A30CC49859DB">
+      <ObjectId>1077578877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-08-17.23:54:24.440</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-17.23:54:24.440</ModifiedTimestamp>
+      <ColNames>store_id</ColNames>
+      <UnderlyingIndexName>PK__stores__A2F2A30CC49859DB</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
