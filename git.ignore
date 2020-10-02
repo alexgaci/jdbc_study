@@ -1,0 +1,10 @@
+#Gradle
+build/
+gradle/
+.gradle
+#Idea
+.idea/
+#Java
+*.class
+*.log
+*.ctxt
